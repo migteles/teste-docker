@@ -9,6 +9,7 @@ module.exports = defineConfig({
     },
     baseUrl: "https://ebaconline.com.br/",
     defaultBrowser: 'chrome',
+    includeShadowDom: true,
     video: true
   },
 });
