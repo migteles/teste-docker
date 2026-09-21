@@ -1,13 +1,12 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
-  allowCypressEnv: false,
 
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    baseUrl: "https://ebaconline.com.br/",
+    supportFile: 'cypress/support/e2e.js',
     defaultBrowser: 'chrome',
     includeShadowDom: true,
     video: true

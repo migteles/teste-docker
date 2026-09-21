@@ -7,7 +7,7 @@ class CursoPage {
     // Metodo
 
     visitarPaginaCursos() {
-        cy.visit('/cursos')
+        cy.visit('https://ebaconline.com.br/cursos')
     }
 
     fazerPesquisa(texto) {
